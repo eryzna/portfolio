@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav {
+  font-family: 'Catamaran', sans-serif;
+}
+
+.brand {
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 3rem;
+  color: #F85A3E;
+}
+
+.nav-border {
+  border-width: 1rem;
+  border-style: solid;
+  border-color: #F85A3E;
+}
+
+.grid-border {
+  border-top-width: 0rem;
+  border-bottom-width: 1rem;
+  border-left-width: 1rem;
+  border-right-width: 1rem;
+
+  border-style: solid;
+  border-color: #F85A3E;
+}
+
+.right-border {
+  border-right-width: 1rem;
+
+  border-style: solid;
+  border-color: #F85A3E;
+}
+
+
+.no-margin {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.extend {
+  width: 30%;
+}
+
+.row-1 {
+  height: 200px
+}
+
+@media only screen and (max-width: 760px) {
+  .col-md-3, .col-md-6 {
+    height: 200px
+  }
+}
+
+
