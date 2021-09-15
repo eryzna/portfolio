@@ -9,11 +9,11 @@ import './bootstrap/bootstrap.min.css'
 
 function App() {
   return (
-    < >
+    <div class="page-container">
     <Nav />
     <RowOne />
     <RowTwo />
-    </>
+    </div>
   );
 }
 
