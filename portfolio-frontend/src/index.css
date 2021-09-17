@@ -8,6 +8,10 @@ body {
   
 }
 
+img {
+  height: 100%
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -17,8 +21,28 @@ nav {
   font-family: 'Catamaran', sans-serif;
 }
 
-.navbar {
-  height: 100px;
+#icon {
+  height: 4rem;
+}
+
+#nav-link-1 {
+  color: #393e41;
+  font-size: 2rem
+}
+
+#nav-link-2 {
+  color: #393e41;
+  font-size: 2rem
+}
+
+#nav-link-3 {
+  color: #393e41;
+  font-size: 2rem
+}
+
+#nav-link-4 {
+  color: #393e41;
+  font-size: 2rem
 }
 
 .brand {
@@ -27,14 +51,14 @@ nav {
   margin-right: 1rem;
   text-decoration: none;
   white-space: nowrap;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #82ac9f;
 }
 
 .nav-border {
   border-width: 1rem;
   border-style: solid;
-  border-color: #82d4bb;
+  border-color: #393e41;
 }
 
 .grid-border {
@@ -44,18 +68,38 @@ nav {
   border-right-width: 1rem;
 
   border-style: solid;
-  border-color: #82d4bb;
+  border-color: #393e41;
 }
 
 .right-border {
   border-right-width: 1rem;
 
   border-style: solid;
-  border-color: #82d4bb;
+  border-color: #393e41;
 }
 
- #nested-8, #r1-6, #col-3-1, #col-3-2  {
-  height: 400px
+.carousel-1 {
+    width: 100%;
+    height: 275px;
+    margin: auto;    
+    display: block;
+}
+
+.carousel-1-inner {
+  height: 275px
+}
+
+
+#r1-6, #col-3-1, #col-3-2  {
+  height: 275px;
+  
+  margin:0;
+  padding: 0;
+  align-items:center
+}
+
+#nested-8 {
+  height: 300px
 }
 
 #nested-6-1, #nested-6-2 {
@@ -63,12 +107,13 @@ nav {
 }
 
 #nested-4 {
-  height: 500px;
+  height: 400px;
   border-top-width: 0rem;
 }
 
 #col-3-1 {
-  border-right-width: 0rem
+  border-right-width: 0rem;
+  padding:0
 }
 
 #col-3-2 {
@@ -105,7 +150,7 @@ nav {
 }*/
 
 #nested-8 {
-  background-color:salmon
+  background-color: #e7e5df
 }
 
 #nested-columns {
@@ -119,8 +164,8 @@ nav {
   border-top-width: 1rem;
   border-bottom-width: 0rem;
   border-style: solid;
-  border-color: #82d4bb;
-  background-color: greenyellow
+  border-color: #393e41;
+  background-color: #e7e5df
 }
 
 #nested-6-2 {
@@ -129,28 +174,25 @@ nav {
   border-top-width: 1rem;
   border-bottom-width: 0rem;
   border-style: solid;
-  border-color: #82d4bb;
-  background-color: purple
+  border-color: #393e41;
+  background-color: #e7e5df
 }
 
 #nested-4 {
   border-left-width: 1rem;
   border-style: solid;
-  border-color: #82d4bb;
-  background-color: pink
+  border-color: #393e41;
+  background-color: #e7e5df
 }
 
 #col-3-1 {
-  background-color: blueviolet
+  background-color: #e7e5df
 }
 
 #col-3-2 {
-  background-color: cornflowerblue;
+  background-color: #e7e5df;
 }
 
-#r1-6 {
-  background-color: yellow
-}
 
 @media only screen and (max-width: 760px) {
 
@@ -162,8 +204,8 @@ nav {
     border-right-width: 0.7rem;
     border-bottom-width: 1rem;
     border-style: solid;
-    border-color: #82d4bb;
-    background-color: pink
+    border-color: hsl(203, 7%, 24%);
+    background-color: #e7e5df
   }
 
   #col-3-1 {
