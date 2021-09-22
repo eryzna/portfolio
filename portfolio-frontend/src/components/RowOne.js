@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Carousel from './CarouselOne.js'
+import CarouselOne from './CarouselOne.js'
 export default class RowOne extends Component {
     
 
@@ -16,7 +16,7 @@ export default class RowOne extends Component {
                 
               </div>
               <div class="col-md-6 themed-grid-col grid-border" id="r1-6">
-                <Carousel />
+                <CarouselOne />
               </div>
               <div class="col-md-3 themed-grid-col grid-border" id="col-3-2">.col-md-3</div>
             </div>
