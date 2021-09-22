@@ -9,7 +9,7 @@ export default class CarouselTwo extends Component {
         <div id="myCarouselTwo" class="carousel slide carousel-2" data-bs-ride="carousel-2">
         
         <div class="carousel-inner">
-          <div class="carousel-item active carousel-item-1">
+          <div class="carousel-item active carousel-two">
             <svg class="bd-placeholder-img" width="100%" height="397px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
     
             <div class="container ">
@@ -21,7 +21,7 @@ export default class CarouselTwo extends Component {
             </div>
           </div>
           <div class="carousel-item ">
-            <svg class="bd-placeholder-img" width="100%" height="397px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+            <svg class="bd-placeholder-img carousel-two" width="100%" height="397px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
     
             <div class="container">
               <div class="carousel-caption">
@@ -32,7 +32,7 @@ export default class CarouselTwo extends Component {
             </div>
           </div>
           <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="397px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+            <svg class="bd-placeholder-img carousel-two" width="100%" height="397px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
     
             <div class="container">
               <div class="carousel-caption text-end">
