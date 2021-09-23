@@ -89,6 +89,17 @@ nav {
   height: 275px
 }
 
+.grid-text {
+  font-family: 'Catamaran', sans-serif;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+  text-align: center;
+  color: #393e41;
+}
+
 
 #r1-6, #col-3-1, #col-3-2  {
   height: 275px;
@@ -99,7 +110,7 @@ nav {
 }
 
 #nested-8 {
-  height: 300px
+  height: 300px;
 }
 
 #nested-6-1, #nested-6-2 {
