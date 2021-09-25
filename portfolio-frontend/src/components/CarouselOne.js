@@ -21,7 +21,7 @@ export default class CarouselOne extends Component {
             </div>
           </div>
           <div class="carousel-item">
-            <img src="/Img1.JPG" width="200px" height="260px"></img>
+            <img src="/IMG3-02.png" width="115%" height="260px"></img>
             
     
             <div class="container">
