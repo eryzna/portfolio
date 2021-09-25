@@ -14,14 +14,15 @@ export default class CarouselOne extends Component {
     
             <div class="container ">
               <div class="carousel-caption text-start">
-                <h1>Example headline.</h1>
-                <p>Some representative placeholder content for the first slide of the carousel.</p>
+                <h1>Philosophy Tree</h1>
+                <p>React/Ruby on Rails</p>
                 <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <svg class="bd-placeholder-img carousel-one" width="100%" height="260px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+            <img src="/Img1.JPG" width="200px" height="260px"></img>
+            
     
             <div class="container">
               <div class="carousel-caption">

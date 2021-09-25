@@ -7,7 +7,7 @@ export default class Nav extends Component {
         
       return (
         
-            <nav class="navbar navbar-expand-lg navbar-light bg-light nav-border" aria-label="Eleventh navbar example">
+            <nav class="navbar navbar-expand-lg navbar-light nav-border" aria-label="Eleventh navbar example">
                 <div class="container-fluid">
                     <img src="cat_silhouette.png" class="brand" id="icon" alt="cat silhouette"></img>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">

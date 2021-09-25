@@ -13,7 +13,7 @@ export default class RowTwo extends Component {
             <div class="row mb-auto row-1 grid-border">
                 <div class="col-md-8 themed-grid-col" id="nested-columns">
                     <div class="pb-3 nested-rows" id="nested-8">
-                      <h2 class="grid-text"> Hello, my name is Elana. I am a full-stack developer and artist.</h2>
+                      <h2 class="grid-text"> Greetings! My name is Elana. I am a full-stack developer and artist.</h2>
                     </div>
                     <div class="row nested-rows">
                       <div class="col-md-6 themed-grid-col" id="nested-6-1">.col-md-6</div>

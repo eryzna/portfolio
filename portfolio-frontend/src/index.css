@@ -21,6 +21,10 @@ nav {
   font-family: 'Catamaran', sans-serif;
 }
 
+.navbar {
+  background-color: #e7e5df
+}
+
 #icon {
   height: 4rem;
 }
@@ -98,6 +102,8 @@ nav {
   vertical-align: center;
   text-align: center;
   color: #393e41;
+  margin-bottom: 0px;
+  
 }
 
 
@@ -111,6 +117,8 @@ nav {
 
 #nested-8 {
   height: 300px;
+  padding-bottom: 0!important;
+  background-image: 'Img1.JPG'
 }
 
 #nested-6-1, #nested-6-2 {
