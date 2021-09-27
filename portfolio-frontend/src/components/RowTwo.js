@@ -20,7 +20,12 @@ export default class RowTwo extends Component {
                       <div class="col-md-6 themed-grid-col" id="nested-6-2">.col-md-6</div>
                     </div>
                 </div>
-                <div class="col-md-4 themed-grid-col" id="nested-4"> <CarouselTwo />
+                <div class="col-md-4 themed-grid-col" id="nested-4"> 
+                  <div class= "grid-border" id="grid-label">
+                    <h4>Art</h4>
+                  </div>
+                
+                  <CarouselTwo />
                 </div>
             </div>
         </div>
