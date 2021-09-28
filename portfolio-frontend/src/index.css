@@ -8,6 +8,26 @@ body {
   
 }
 
+h1, h2, h3, h4, h5, p {
+  font-family: 'Catamaran', sans-serif;
+  color: #393e41;
+}
+
+.carousel-caption {
+  font-family: 'Catamaran', sans-serif;
+  color: #393e41;
+}
+
+.carousel-control-next-img {
+  
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+}
+
 #grid-label {
   z-index: 3;
   position: absolute;
