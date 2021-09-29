@@ -32,6 +32,7 @@ export default class CarouselTwo extends Component {
             </div>
           </div>
           <div class="carousel-item">
+              <div class="hover">
             <svg class="bd-placeholder-img carousel-two" width="100%" height="397px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
     
             <div class="container">
@@ -41,9 +42,11 @@ export default class CarouselTwo extends Component {
                 <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
               </div>
             </div>
+            </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarouselTwo" data-bs-slide="prev">
+
+        <button class="carousel-control-prev control-button" type="button" data-bs-target="#myCarouselTwo" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>

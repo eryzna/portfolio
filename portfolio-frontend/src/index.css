@@ -13,9 +13,21 @@ h1, h2, h3, h4, h5, p {
   color: #393e41;
 }
 
+.hover {
+  background-color: #e7e5df
+}
+
+.hover:hover {
+  fill: blue
+}
+
 .carousel-caption {
   font-family: 'Catamaran', sans-serif;
   color: #393e41;
+}
+
+rect:hover {
+  fill:blue
 }
 
 .carousel-control-next-img {
@@ -29,7 +41,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 #grid-label {
-  z-index: 3;
+  z-index: 1;
   position: absolute;
   border-left: 0;
   border-top: 0;
@@ -141,6 +153,10 @@ nav {
   margin:0;
   padding: 0;
   align-items:center
+}
+
+#col-3-2:hover {
+  background-color: blue
 }
 
 
@@ -280,10 +296,7 @@ nav {
     height: 300px
   }
 
-  .carousel-one {
-    height: 285px
-  }
-
+  
   .carousel-two {
     height: 300px
   }
