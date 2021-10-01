@@ -13,13 +13,6 @@ h1, h2, h3, h4, h5, p {
   color: #393e41;
 }
 
-.hover {
-  background-color: #e7e5df
-}
-
-.hover:hover {
-  fill: blue
-}
 
 .carousel-caption {
   font-family: 'Catamaran', sans-serif;
@@ -27,7 +20,7 @@ h1, h2, h3, h4, h5, p {
 }
 
 rect:hover {
-  fill:blue
+  fill:rgba(0, 0, 255, 0.281)
 }
 
 .carousel-control-next-img {

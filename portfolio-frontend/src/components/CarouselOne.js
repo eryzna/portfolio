@@ -9,49 +9,83 @@ export default class CarouselOne extends Component {
         <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         
         <div class="carousel-inner">
-          <div class="carousel-item active">
-              <div class="carousel-one"></div>
 
-            <svg class="bd-placeholder-img" width="100%" height="260px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="true"><rect width="100%" height="100%" fill="#e7e5df"/></svg>
-    
+          <div class="carousel-item active">
+            <svg class="bd-placeholder-img" 
+            width="100%" height="260px" 
+            xmlns="http://www.w3.org/2000/svg" 
+            aria-hidden="true" 
+            preserveAspectRatio="xMidYMid slice" 
+            focusable="true">
+                <a href="https://youtu.be/uVJeQndZlP0">
+                <rect width="100%" height="100%" fill="#e7e5df"/>
+                </a>
+            </svg>
             <div class="container">
               <div class="carousel-caption text-start carousel-caption">
                 <h1>Philosophy Tree</h1>
-                <p>React/Ruby on Rails</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                <p>A full-stack Ruby on Rails/React SPA to browse philosophical movements and their interconnected doctrines.</p>
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-          <svg class="bd-placeholder-img carousel-one" width="100%" height="260px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#e7e5df"/></svg>
 
+          <div class="carousel-item">
+            <svg 
+            class="bd-placeholder-img carousel-one" 
+            width="100%" height="260px" 
+            xmlns="http://www.w3.org/2000/svg" 
+            aria-hidden="true" 
+            preserveAspectRatio="xMidYMid slice" 
+            focusable="false">
+            <a href="https://youtu.be/NWIfcRI0daU">
+                <rect width="100%" height="100%" fill="#e7e5df"/>
+            </a>
+            </svg>
             <div class="container">
-              <div class="carousel-caption">
+              <div class="carousel-caption text-start carousel-caption">
                 <h1>Footprint</h1>
-                <p>Ruby</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                <p>A Ruby Sinatra application to record “green” activities.</p> 
+                <br></br>
               </div>
             </div>
-          </div>
+            </div>
+
           <div class="carousel-item">
-          <svg class="bd-placeholder-img carousel-one" width="100%" height="260px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#e7e5df"/></svg>
-    
-            <div class="container carousel-hover">
+            <svg 
+            class="bd-placeholder-img carousel-one" 
+            width="100%" height="260px" 
+            xmlns="http://www.w3.org/2000/svg" 
+            aria-hidden="true" 
+            preserveAspectRatio="xMidYMid slice" 
+            focusable="false">
+            <a href="https://youtu.be/dZZctpTLE-w">
+                <rect width="100%" height="100%" fill="#e7e5df"/>
+            </a>
+            </svg>
+            <div class="container">
               <div class="carousel-caption text-start carousel-caption">
                 <h1>Monarch Monarchy</h1>
-                <p>JS/Ruby on Rails</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                <p>A full-stack Ruby on Rails/Javascript SPA to view and record adult monarch butterfly sightings.</p>  
               </div>
             </div>
           </div>
+
           <div class="carousel-item">
-          <svg class="bd-placeholder-img carousel-one" width="100%" height="260px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#e7e5df"/></svg>
-    
+          <svg 
+            class="bd-placeholder-img carousel-one" 
+            width="100%" height="260px" 
+            xmlns="http://www.w3.org/2000/svg" 
+            aria-hidden="true" 
+            preserveAspectRatio="xMidYMid slice" 
+            focusable="false">
+            <a href="https://youtu.be/6vMSosxNMcc">
+                <rect width="100%" height="100%" fill="#e7e5df"/>
+            </a>
+            </svg>
             <div class="container">
               <div class="carousel-caption text-start carousel-caption">
                 <h1>Seed Swap</h1>
-                <p>Ruby on Rails</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                <p>A full-stack Ruby on Rails application to connect with and exchange seeds with neighbors.</p>
               </div>
             </div>
           </div>
@@ -65,6 +99,7 @@ export default class CarouselOne extends Component {
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+        
       </div>
     
 
