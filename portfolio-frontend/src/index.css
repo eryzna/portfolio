@@ -23,6 +23,13 @@ h1, h2, h3, h4, h5, p {
   fill:rgba(0, 0, 255, 0.281)
 }*/
 
+.overlay {
+  background-color: blue;
+     /* -> transparency 50% */
+  /* -> image_width - padding */
+  opacity: 50%;
+       /* -> put overlay over image */
+  }
 
 .c2-div {
   z-index: -5;

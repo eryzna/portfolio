@@ -24,9 +24,7 @@ export default class RowTwo extends Component {
                   <div class= "grid-border" id="grid-label">
                     <h4>Art</h4>
                   </div>
-                
                   <CarouselTwo />
-                  <div class="c2-div"></div>`
                 </div>
             </div>
         </div>

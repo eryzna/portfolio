@@ -13,7 +13,7 @@ export default class RowOne extends Component {
               <div class="col-md-3 themed-grid-col grid-border" id="col-3-1">
                 
               </div>
-              <div class="col-md-6 themed-grid-col grid-border hover" id="r1-6">
+              <div class="col-md-6 themed-grid-col grid-border" id="r1-6">
                 <div class= "grid-border" id="grid-label">
                   <h4>Development Projects</h4>
                 </div>
