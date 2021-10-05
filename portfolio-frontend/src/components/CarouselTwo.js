@@ -3,6 +3,27 @@ import React, { Component } from 'react';
 export default class CarouselTwo extends Component {
     
 
+  
+componentDidMount = () => {
+    this.imgHover()
+}
+  
+imgHover = () => {
+    let divEl = document.querySelector('#nested-4');
+    let imgOne = document.querySelector('#Gustav-1');
+
+  divEl.addEventListener('mouseenter', () => 
+    divEl.style.backgroundColor = "blue"
+  )
+
+  imgOne.addEventListener('mouseenter', () => 
+    imgOne.style.backgroundColor = "blue"
+  )
+
+  divEl.addEventListener('mouseover', () => console.log('Event: mouseover'));
+}
+
+
     render() {
         
       return (
@@ -21,7 +42,7 @@ export default class CarouselTwo extends Component {
             </div>
           </div>
           <div class="carousel-item ">
-            <svg class="bd-placeholder-img carousel-two" width="100%" height="397px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+            <svg class="bd-placeholder-img carousel-two" width="100%" height="397px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect class="rect-2" width="100%" height="100%" fill="#777"/></svg>
     
             <div class="container">
               <div class="carousel-caption">
@@ -32,17 +53,10 @@ export default class CarouselTwo extends Component {
             </div>
           </div>
           <div class="carousel-item">
-              <div class="hover">
-            <svg class="bd-placeholder-img carousel-two" width="100%" height="397px" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-    
-            <div class="container">
-              <div class="carousel-caption text-end">
-                <h1>One more for good measure.</h1>
-                <p>Some representative placeholder content for the third slide of this carousel.</p>
-                <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-              </div>
-            </div>
-            </div>
+              
+
+              <img src="/Gustav-1.jpg" id="Gustav-1" height="397px" alt="green cat illustration"></img>
+                
           </div>
         </div>
 

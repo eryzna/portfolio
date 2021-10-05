@@ -26,6 +26,7 @@ export default class RowTwo extends Component {
                   </div>
                 
                   <CarouselTwo />
+                  <div class="c2-div"></div>`
                 </div>
             </div>
         </div>
