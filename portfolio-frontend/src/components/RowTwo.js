@@ -16,8 +16,12 @@ export default class RowTwo extends Component {
                       <h2 class="grid-text"> Greetings! My name is Elana. I am a full-stack developer and artist.</h2>
                     </div>
                     <div class="row nested-rows">
-                      <div class="col-md-6 themed-grid-col" id="nested-6-1">.col-md-6</div>
-                      <div class="col-md-6 themed-grid-col" id="nested-6-2">.col-md-6</div>
+                      <div class="col-md-6 themed-grid-col" id="nested-6-1">
+                        <img src="/Sunset-1-l.png" alt="sunset" height="100%" width="100%"></img>
+                      </div>
+                      <div class="col-md-6 themed-grid-col" id="nested-6-2">
+                        <img src="/Sunset-1-r.png" alt="sunset" height="100%" width="100%"></img>
+                      </div>
                     </div>
                 </div>
                 <div class="col-md-4 themed-grid-col" id="nested-4"> 

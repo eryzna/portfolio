@@ -38,11 +38,11 @@ h1, h2, h3, h4, h5, p {
      left: 0;
      right: 0;
      bottom: 0;
-     transition: background-color 0.4s;
+     transition: background-image 0.4s;
  }
  .carousel-item:hover:after {
-    background-image: linear-gradient(rgba(251, 255, 0, 0.5), rgba(255,0,0,0.5));
-  
+    background-image: linear-gradient(rgba(51, 255, 255, 0.5), rgba(255, 51, 51));
+    
  }
 
 .carousel-control-next-img {
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, p {
   position: absolute;
   border-left: 0;
   border-top: 0;
-  background-color: pink;
+  background-color: rgba(51, 255, 255);
   font-family: 'Catamaran', sans-serif;
   color:hsl(203, 7%, 24%);
   padding: 5px;
@@ -184,6 +184,7 @@ nav {
 
 #nested-6-1, #nested-6-2 {
   height: 190px;
+  padding: 0px
 }
 
 #nested-4 {
