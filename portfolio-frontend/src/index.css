@@ -41,7 +41,8 @@ h1, h2, h3, h4, h5, p {
      transition: background-color 0.4s;
  }
  .carousel-item:hover:after {
-     background-color: rgba(255, 0, 200, 0.6);
+    background-image: linear-gradient(rgba(251, 255, 0, 0.5), rgba(255,0,0,0.5));
+  
  }
 
 .carousel-control-next-img {
@@ -171,7 +172,7 @@ nav {
 
 #col-3-2:hover {
   transition: background-color 0.4s;
-  background-color: rgba(255, 0, 200, 0.6);
+  background-image: linear-gradient(red, yellow);
 }
 
 
@@ -182,11 +183,11 @@ nav {
 }
 
 #nested-6-1, #nested-6-2 {
-  height: 197px;
+  height: 190px;
 }
 
 #nested-4 {
-  height: 397px;
+  height: 390px;
   border-top-width: 0rem;
   padding: 0;
 }
