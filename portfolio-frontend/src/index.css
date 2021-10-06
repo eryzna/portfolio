@@ -23,23 +23,26 @@ h1, h2, h3, h4, h5, p {
   fill:rgba(0, 0, 255, 0.281)
 }*/
 
-.overlay {
+
+/*.overlay {
   background-color: blue;
-     /* -> transparency 50% */
-  /* -> image_width - padding */
+  background-blend-mode: overlay;
+  z-index: 200;
   opacity: 50%;
-       /* -> put overlay over image */
-  }
+  }*/
 
-.c2-div {
-  z-index: -5;
-  width:"100%";
-  height: 395px;
-}
-
-.c2-div:hover {
-  background-color:seagreen
-}
+ .carousel-item:after {
+     content: '';
+     position: absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     transition: background-color 0.4s;
+ }
+ .carousel-item:hover:after {
+     background-color: rgba(255, 0, 200, 0.6);
+ }
 
 .carousel-control-next-img {
   
@@ -167,22 +170,23 @@ nav {
 }
 
 #col-3-2:hover {
-  background-color: blue
+  transition: background-color 0.4s;
+  background-color: rgba(255, 0, 200, 0.6);
 }
 
 
 #nested-8 {
-  height: 300px;
+  height: 200px;
   padding-bottom: 0!important;
   background-image: 'Img1.JPG'
 }
 
 #nested-6-1, #nested-6-2 {
-  height: 100px;
+  height: 197px;
 }
 
 #nested-4 {
-  height: 400px;
+  height: 397px;
   border-top-width: 0rem;
   padding: 0;
 }

@@ -3,52 +3,6 @@ import React, { Component } from 'react';
 export default class CarouselTwo extends Component {
     
 
-  
-componentDidMount = () => {
-    this.imgHover()
-}
-  
-imgHover = () => {
-    let divEl = document.querySelector('#nested-4');
-    //let imgOne = document.getElementsByTagName('img');
-    //let imgOne = document.querySelector('#Gustav-1')
-    //let imgTwo = document.querySelector('#Gustav-2')
-    let items = [...document.getElementsByClassName('carousel-item')];
-    
-    items.forEach(e => e.addEventListener ('mouseover', () => 
-        e.classList.add('overlay')
-    ))
-
-    items.forEach(e => e.addEventListener ('mouseleave', () => 
-        e.classList.remove('overlay')
-    ))
-    //items = document.getElementsByClassName("carousel-item")
-
-    //items.foreach
-    
-    //addEventListener('mouseover', () => 
-    //  items.classList.add("overlay")
-    //)
-
-    //imgOne.addEventListener('mouseover', () => 
-    //  imgOne.className = "overlay"
-    //)
-    //
-    //imgOne.addEventListener('mouseleave', () => 
-    //  imgOne.className = ""
-    //)
-
-  //imgTwo.addEventListener('mouseover', () => 
-  //  imgTwo.className = "overlay"
-  //)
-//
-  //imgTwo.addEventListener('mouseleave', () => 
-  //  imgTwo.className = ""
-  //)
-
-  //divEl.addEventListener('mouseover', () => console.log('Event: mouseover'));
-}
-
 
     render() {
         
