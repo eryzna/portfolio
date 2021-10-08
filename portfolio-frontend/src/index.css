@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, p {
      transition: background-image 0.4s;
  }
  .carousel-item:hover:after {
-    background-image: linear-gradient(rgba(51, 255, 255, 0.5), rgba(255, 51, 51));
+    background-image: linear-gradient( rgba(255, 51, 51, 0.2), rgba(51, 255, 255, 0.2), rgba(153,153,255, 0.2));
     
  }
 
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, p {
   position: absolute;
   border-left: 0;
   border-top: 0;
-  background-color: rgba(51, 255, 255);
+  background-color: white;
   font-family: 'Catamaran', sans-serif;
   color:hsl(203, 7%, 24%);
   padding: 5px;
