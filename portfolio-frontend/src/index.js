@@ -4,12 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ScriptTag from 'react-script-tag';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 
 <ScriptTag type="text/javascript" src="/custom.js" />
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Router>
+     
+     <Route exact path="/"component={App} />
+     
+  
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
